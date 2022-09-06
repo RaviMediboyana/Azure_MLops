@@ -65,7 +65,7 @@ def log_confusion_matrix(cm, labels):
     # log normalized confusion matrix as image
     log_confusion_matrix_image(cm, labels, normalize=True, log_name='confusion_matrix_normalized', title='Normalized confusion matrix')
 
-
+#
 def main(args):
     # create the outputs folder
     os.makedirs('outputs', exist_ok=True)
